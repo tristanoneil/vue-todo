@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Another todo app built with Vue",
+  "scripts": {
+    "build": "watchify -t vueify -e src/main.js -o build/build.js"
+  },
+  "main": "index.js",
+  "author": "Tristan O'Neil",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-runtime": "^5.8.29",
+    "cssnext": "^1.8.4",
+    "vue": "^1.0.7",
+    "vue-hot-reload-api": "^1.2.1",
+    "vueify": "^5.0.4",
+    "vueify-insert-css": "^1.0.0"
+  }
+}
